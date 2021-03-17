@@ -40,10 +40,6 @@ if ($conn->connect_error) {
             echo('<td>'.$row['id_pracownicy'].'</td><td>'.$row['imie'].'</td><td>'.$row['dzial'].'</td><td>'.$row['zarobki'].'</td><td>'.$row['data_urodzenia'].'</td><td>'.$row['id_org'].'</td><td>'.$row['nazwa_dzial'].'</td>');
             echo('</tr>');
      }
-     echo('</table>'."<br>");
-     echo("zmiana kodu");
-     $d=strtotime("now");
-     echo "<li>".date("Y-m-d h:i:sa", $d) . "<br>";
 
 ?>
 </body>
