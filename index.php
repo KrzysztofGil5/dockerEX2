@@ -11,7 +11,7 @@
 	    	<input type="submit" value="dodaj pracownika">
 	</form>
 <?php
-echo("<li>info z dockera");
+echo("<li>informacje z dockera");
  
 $servername = "db";
 $username = "root";
@@ -41,9 +41,9 @@ if ($conn->connect_error) {
             echo('</tr>');
      }
         echo('</table>'."<br>");
-        //echo("zmiany");
-        //$d=strtotime("now");
-        //echo "<li>".date("Y-m-d h:i:sa", $d) . "<br>";
+        echo("zmiana kodu");
+        $d=strtotime("now");
+        echo "<li>".date("Y-m-d h:i:sa", $d) . "<br>";
  
 ?>
 </body>
